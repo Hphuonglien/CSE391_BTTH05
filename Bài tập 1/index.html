@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Todos List</title>
+</head>
+<body>
+    <div class="cont">
+        <h1>My Todos</h1>
+        <form class="todo-items" id="todos-item" action="">
+            <p>Learn React</p>
+            <div><input type="button" id="delete-btn" value="Delete"></div>
+        </form>
+        <form id="popup-delete">
+            <div class="popup-content">
+                <p>Are you sure?</p>
+                <div id="btn-popup">
+                    <div><input type="button" value="Cancel" id="cancel-btn"></div>
+                    <div><input type="button" value="Confirm" id="confirm-btn"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
